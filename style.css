@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #252B42;
+}
+
+.container {
+    width: 100%;
+    height: 125vh;
+    background: url(./bg-img/logo.png
+);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .navbar {
+    width: 1100px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.navbar .nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+
+.navbar .nav2 ul {
+    list-style: none;
+    display: flex;
+}
+
+li a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a1 {
+    color: #23A6F0;
+    font-weight: 800;
+}
+
+.nav3 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 10px;
+    color: white;
+}
+
+.nav3 .but {
+    width: 214px;
+    height: 52px;
+    font-size: 18px;
+    background: #23A6F0;
+    color: white;
+    border-radius: 10px;
+    border: #23A6F0;
+    cursor: pointer;
+}
+
+.contact {
+    width: 690px;
+    height: 490px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.contact h4 {
+    color: #23A6F0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact h2 {
+    font-size: 58px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px 0;
+}
+
+.contact p {
+    font-size: 21px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 0;
+}
+
+.contact .but2 {
+    width: 133px;
+    height: 52px;
+    font-size: 18px;
+    background: #23A6F0;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card_club {
+    width: 325px;
+    height: 292px;
+    border: 1px solid white;
+    background: white;
+    border-radius: 10px;
+}
+
+.img_bar {
+    width: 70px;
+    height: 76px;
+    background: #23A6F0;
+    border-radius: 10px;
+}
+
+.img_bar img {
+    width: 40px;
+    margin: 14px;
+}
+
+.card_bar {
+    margin: 35px 40px;
+}
+
+.card_bar h3 {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0;
+}
+
+.card_bar h5 {
+    width: 50px;
+    height: 3px;
+    background: #E74040;
+    margin: 10px 0;
+}
+
+.card_bar p {
+    color: #737373;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact2 {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cont4 h5 {
+    width: 94px;
+    height: 5px;
+    background: #E74040;
+    margin: 10px 0;
+}
+
+.cont4 h2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.cont4 p {
+    color: white;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0;
+}
+
+.container2 {
+    width: 100%;
+    height: 170vh;
+    text-align: center;
+}
+
+.container2 h3 {
+    color: #23A6F0;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 0;
+}
+
+.container2 h2 {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2 p {
+    color: white;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 0;
+}
+
+.container2 img {
+    padding: 100px 0;
+}
+
+.container3 {
+    width: 100%;
+    height: 120vh;
+    text-align: center;
+}
+
+.container3 h3 {
+    color: #23A6F0;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 0;
+}
+
+.container3 h2 {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container3 p {
+    color: white;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont3 {
+    border-left: 2px solid white;
+}
+
+.cont {
+    border: 1px solid white;
+    background: white;
+    width: 480px;
+    height: 431px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.cont img {
+    width: 128px;
+    border-radius: 50%;
+}
+
+.cont p {
+    color: #737373;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+}
+
+.cont h2 {
+    font-size: 25px;
+    color: #252B42;
+}
+
+.cont h4 {
+    color: gray;
+}
+
+.cont2 {
+    border-right: 2px solid white;
+}
+
+.cont2 img {
+    height: 140px;
+}
+.container4 {
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+}
+.container4 h3 {
+    color: #23A6F0;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 0;
+}
+.container4 h2 {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container4 p {
+    color: white;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 0;
+}
+.content5 {
+    width: 688px;
+    margin: 0 auto;
+    height: 58px;
+    border: 1px solid wheat;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.content5 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 15px 0;
+
+}
+.content5 li a{
+    text-decoration: none;
+    color: #737373;
+}
+.ul2{
+    background: #23A6F0;
+}
+.ul2 li a {
+    color: white;
+}
